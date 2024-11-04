@@ -13,6 +13,7 @@ h3{
 button{
  border-radius: 5px;
  background-color: #626262;
+ margin-left: 5px;
 
 }
 .to-do_box{
@@ -26,5 +27,5 @@ button{
 input[type="text"]{
     width: 100%;
     padding: 10px;
-    border-radius: 1px;
+    border-radius: 5px;
 }
