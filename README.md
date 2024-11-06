@@ -1,4 +1,3 @@
-sgrfejhrs
 # To-Do List Application
 
 A simple **To-Do List** web application built with **Node.js**, **Express**, and **EJS** for rendering views. The app allows users to add, complete, and delete tasks, providing a simple way to track daily activities.
