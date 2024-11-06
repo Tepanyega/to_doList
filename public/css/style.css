@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #666;
+    color: #fff;
+
+}
+
+#container{
+    border-radius: 10px;
+    width: 40%;
+    margin: 50px auto;
+    padding: 10px;
+    background-color:#5e4444;
+}
+.appendChild{
+    max-height: 300px;
+    overflow-y: auto;
+    margin-top: 15px;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+button{
+ border-radius: 5px;
+ background-color: #626262;
+ margin-left: 5px;
+
+}
+.to-do_box{
+    display: flex;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input[type="text"]{
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#outputList{
+    list-style-type: none;
+    padding: 0;
+}
+
+#outputList li{
+    width: 95%;
+    background-color: grey;
+    margin : 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+    font-size: 18px;
+    transition: transform 0.2 ease, box-shadow 0.2 ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect on list items */
+#outputList li:hover {
+    transform: translateY(-5px);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+  }
+
+.bin-icon{
+    cursor: pointer;
+    color: aqua;
+    font-size: 20px;
+  }
+
+.bin-icon:hover{
+    transform: translateY(-5px);
+    color: #5e4444;
+  }
+
+  /* Style the delete icon */
+.delete-icon {
+    font-size: 20px;      /* Set the size of the icon */
+    color: #ff0000;       /* Set the color to red (for delete action) */
+    cursor: pointer;     /* Make the icon clickable */
+    margin-left: 10px;    /* Add some space between task text and icon */
+}
+
+/* Add hover effect */
+.delete-icon:hover {
+    color: #cc0000;       /* Darker red when hovering */
+    transform: scale(1.2); /* Slightly increase the size when hovering */
+    transition: transform 0.2s, color 0.2s; /* Smooth transition */
+}
+
+.completed{
+    text-decoration: line-through;
+    color: #626262;
+}
