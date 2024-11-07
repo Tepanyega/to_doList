@@ -39,14 +39,11 @@ h2{
     margin-bottom: 10px;
 }
 
-
-
 input[type="text"]{
     width: 75%;
     padding: 10px;
     border-radius: 5px;
 }
-
 
 ul.todo-list li{
     width: 90%;
@@ -68,7 +65,6 @@ ul.todo-list li a {
     display: inline-block;
 }
 
-/* Styling for the task text (span) */
 ul.todo-list li span {
     flex-grow: 1; /* This ensures the text takes up all available space */
     word-wrap: break-word; /* Allows text to wrap properly if it's too long */
@@ -78,8 +74,7 @@ ul.todo-list li span {
 #outputList li:hover {
     transform: translateY(-5px);
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
-  }
-
+}
 
 /* Styling for the complete button */
 ul.todo-list li button.complete-btn {
@@ -97,15 +92,13 @@ ul.todo-list li button.complete-btn:hover {
     background-color: #45a049;
 }
 
-  /* Style the delete icon */
 .delete-icon {
-    font-size: 20px;      /* Set the size of the icon */
-    color: #5e3939;       /* Set the color to red (for delete action) */
-    cursor: pointer;     /* Make the icon clickable */
-    margin-left: 10px;    /* Add some space between task text and icon */
+    font-size: 20px;      
+    color: #5e3939;       
+    cursor: pointer;     
+    margin-left: 10px;    
 }
 
-/* Add hover effect */
 .delete-icon:hover {
     color: #9c2727;       /* Darker red when hovering */
     transform: scale(1.2); /* Slightly increase the size when hovering */
@@ -117,40 +110,21 @@ ul.todo-list li button.complete-btn:hover {
     color: #626262;
 }
 
-/* Styling for the delete button */
-ul.todo-list li button.delete-btn {
-    background-color: #f44336;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-ul.todo-list li button.delete-btn:hover {
-    background-color: #e53935;
-}
-
-/* Styling for icons (in delete button) */
 ul.todo-list li i {
     margin-right: 5px;
 }
 
-/* Hover effect for list items */
 ul.todo-list li:hover {
     background-color: #f1f1f1;
 }
 
-/* Style for the task list container (ul) */
 ul.todo-list {
-    max-height: 300px; /* Set a fixed height for the list */
+    max-height: 300px; 
     overflow-y: auto; /* Enable vertical scroll when content overflows */
     padding-left: 0; /* Remove default padding */
     list-style-type: none; /* Remove list bullets */
 }
 
-
-/* Responsive Design: Mobile-friendly adjustments */
 @media (max-width: 600px) {
     #container {
         padding: 10px;
