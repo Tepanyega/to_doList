@@ -51,7 +51,13 @@ app.get('/delete/:task', (req, res) => {
 app.get('/completed/:task', (req, res) => {
     const taskCompleted = tasks.find(task => task.task === req.params.task);
     if(taskCompleted){
-        taskCompleted.completed =!taskCompleted.completed;
+        taskCompleted.completed =!taskCompleted.completed; //toggle completed status
+
+        //reorder tasks
+        tasks.sort((a,b) => {
+            if(a.completed === b.completed) return 0;
+            return a.completed? 1 : -1; //sort completed tasks first
+        });
     }
     res.redirect('/');
 });
