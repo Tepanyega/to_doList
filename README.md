@@ -32,7 +32,7 @@ Before running the app, ensure you have the following installed:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/to-do-list.git
+git clone https://github.com/Tepanyega/to_doList.git
 ```
 
 ### 2. Install dependencies
@@ -69,26 +69,19 @@ Open your browser and go to `http://localhost:3000` to start using the to-do lis
 Here’s a quick overview of the project structure:
 
 ```
-to-do-list/
+to_doList/
 ├── node_modules/            # Dependencies
 ├── public/                  # Public files like CSS, images, etc.
-│   └── css/
-│       └── style.css        # Custom styles for the app
-├── views/                   # EJS view templates
-│   └── index.ejs            # Main page with to-do list rendering
+│   |└── css/
+│   |    └── style.css       # Custom styles for the app
+|   |__index.js              # Custom styles for the
+├── views/                   # view templates
+│   └── index.html            # Main page with to-do list rendering
 ├── app.js                   # Main application file (Express app)
 ├── package.json             # Project dependencies and scripts
 ├── package-lock.json        # Lock file for npm dependencies
 └── README.md                # This file
 ```
-
-## Screenshots
-
-**Task List**:
-![Task List Screenshot](screenshots/task-list.png)
-
-**Completed Task**:
-![Completed Task Screenshot](screenshots/completed-task.png)
 
 ## Contributing
 
