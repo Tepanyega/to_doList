@@ -14,7 +14,6 @@ A simple **To-Do List** web application built with **Node.js**, **Express**, and
 
 - **Node.js**: Server-side JavaScript runtime.
 - **Express.js**: Web application framework for Node.js.
-- **EJS**: Embedded JavaScript templating engine for rendering views.
 - **Font Awesome**: Icons for tasks (e.g., delete and complete buttons).
 - **CSS**: Custom styles for the front-end.
 
