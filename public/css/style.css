@@ -4,7 +4,7 @@ body {
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow-x: hidden;
-    
+    background-color: #343a40;
 }
 
 h1 {
@@ -38,9 +38,11 @@ form {
 }
 
 input[type="text"] {
-    width: 95%;
+    width: 30%;
     padding: 10px;
     border-radius: 5px;
+    margin-left: 400px;
+   
 }
 
 button {
@@ -48,7 +50,7 @@ button {
     border-radius: 5px;
     background-color: var(--button-bg);
     color: white;
-    margin-left: 5px;
+    margin-right: 29%;
     cursor: pointer;
 }
 
@@ -162,18 +164,18 @@ ul.todo-list li span {
     }
 
     #active-tasks, #completed-tasks {
-        width: 100%;  /* Full width on small screens */
+        width: 95%;  /* Full width on small screens */
         margin-bottom: 20px;
     }
 }
 
 /* Color Definitions */
 :root {
-    --primary-color: #5e4444;
-    --secondary-color: #f8f8f8;
+    --primary-color: #6c757d;
+    --secondary-color: #adb5bd;
     --task-bg-color: #dcdcdc;
-    --completed-color: #4caf50;
-    --completed-bg-color: #e3f9e5;
+    --completed-color: #666;
+    --completed-bg-color: #ced4da;
     --button-bg: #666;
     --button-hover-bg: #4CAF50;
     --delete-icon-color: #5e3939;
