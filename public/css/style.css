@@ -158,17 +158,203 @@ ul.todo-list li span {
 }
 
 /* Responsive Layout */
+/* Responsive layout for ipads*/
+/* Media query for iPad screens with dimensions 820px x 1180px */
+@media only screen and (min-width: 820px) and (max-width: 820px) and (min-height: 1180px) and (max-height: 1180px) {
+    /* Your specific styles for this screen size */
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border-radius: 15px;
+        margin-left: 5%;
+        margin-right: 10px;
+       
+    }
+    .timestamp {
+    display: none;
+}
+   button {
+        padding: 5px 10px;
+        border-radius: 15px;
+        background-color: var(--button-bg);
+        color: white;
+        margin-right: 5%;
+        cursor: pointer;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1024px) and (min-height: 1366px) and (max-height: 1366px) {
+    /* Your specific styles for this screen size */
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border-radius: 15px;
+        margin-left: 5%;
+        margin-right: 10px;
+       
+    }
+    .timestamp {
+    display: none;
+}
+   button {
+        padding: 5px 10px;
+        border-radius: 15px;
+        background-color: var(--button-bg);
+        color: white;
+        margin-right: 5%;
+        cursor: pointer;
+    }
+}
+@media only screen and (min-width: 912px) and (max-width: 912px) and (min-height: 1368px) and (max-height: 1368px) {
+    /* Your specific styles for this screen size */
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border-radius: 15px;
+        margin-left: 5%;
+        margin-right: 10px;
+       
+    }
+    .timestamp {
+    display: none;
+}
+   button {
+        padding: 5px 10px;
+        border-radius: 15px;
+        background-color: var(--button-bg);
+        color: white;
+        margin-right: 5%;
+        cursor: pointer;
+    }
+}
+@media only screen and (min-width: 1280PX) and (max-width: 1280PX) and (min-height: 800PX) and (max-height: 800PX) {
+    /* Your specific styles for this screen size */
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border-radius: 15px;
+        margin-left: 5%;
+        margin-right: 10px;
+       
+    }
+    .timestamp {
+    display: none;
+}
+   button {
+        padding: 5px 10px;
+        border-radius: 15px;
+        background-color: var(--button-bg);
+        color: white;
+        margin-right: 5%;
+        cursor: pointer;
+    }
+}
+@media only screen and (min-width: 1024PX) and (max-width: 1024PX) and (min-height: 600PX) and (max-height: 600PX) {
+    /* Your specific styles for this screen size */
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border-radius: 15px;
+        margin-left: 5%;
+        margin-right: 10px;
+       
+    }
+    .timestamp {
+    display: none;
+}
+   button {
+        padding: 5px 10px;
+        border-radius: 15px;
+        background-color: var(--button-bg);
+        color: white;
+        margin-right: 5%;
+        cursor: pointer;
+    }
+}
+@media only screen and (min-width: 853px) and (max-width: 853px) and (min-height: 1280px) and (max-height: 1280px) {
+    /* Your specific styles for this screen size */
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border-radius: 15px;
+        margin-left: 5%;
+        margin-right: 10px;
+       
+    }
+    .timestamp {
+    display: none;
+}
+   button {
+        padding: 5px 10px;
+        border-radius: 15px;
+        background-color: var(--button-bg);
+        color: white;
+        margin-right: 5%;
+        cursor: pointer;
+    }
+}
+
 @media (max-width: 700px) {
     #task-container {
         flex-direction: column;  /* Stack tasks vertically on small screens */
     }
     input[type="text"] {
-        width: 30%;
+        width: 100%;
         padding: 10px;
-        border-radius: 5px;
-        margin-left: 75px;
+        border-radius: 15px;
+        margin-left: 5px;
+        margin-right: 10px;
        
     }
+  /* Complete Button Styles */
+ l.todo-list li {
+    display: flex;  /* Make each list item a flex container */
+    flex-wrap: wrap;  /* Allow content to wrap if it's too long */
+    align-items: center;  /* Vertically center the content */
+    justify-content: space-between;  /* Ensure content is spaced from button */
+    width: 100%;  /* Ensure the list item takes full width */
+    margin-bottom: 10px;  /* Add some space between tasks */
+}
+
+ul.todo-list li .task-content {
+    flex-grow: 1;  /* Allow task content to take up remaining space */
+    word-wrap: break-word;  /* Ensure text wraps if it's too long */
+}
+ul.todo-list li button.complete-btn {
+    background-color: var(--button-bg);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+  
+  flex-shrink: 0; 
+  
+    
+}
+
+    form {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    
+  .timestamp {
+    display: none;
+}
+
+
+
+    button {
+        padding: 5px 10px;
+        border-radius: 15px;
+        background-color: var(--button-bg);
+        color: white;
+        margin-right: 5%;
+        cursor: pointer;
+    }
+
 
     #active-tasks, #completed-tasks {
         width: 95%;  /* Full width on small screens */
